@@ -37,7 +37,7 @@ m = size(X, 1);
 
 % Randomly select 100 data points to display
 rand_indices = randperm(m);
-sel = X(rand_indices(1:500), :);
+sel = X(rand_indices(1:100), :);
 
 displayData(sel);
 
